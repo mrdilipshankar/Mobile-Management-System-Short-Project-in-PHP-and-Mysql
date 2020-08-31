@@ -1,0 +1,97 @@
+.sil-header
+{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,195,115,1) 0%, rgba(214,247,181,1) 100%);
+	padding: 60px 0px;
+}
+.sil-table
+{
+	background: #343a40;
+	height: 100%;
+}
+.sil-head h2
+{
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: arial;
+}
+.sil-head p
+{
+	color: #fff;
+	font-style: italic;
+	margin-top: -15px;
+}
+td input
+{
+	border: none;
+	width: 45%;
+	background: #343a40;
+}
+.loginform
+{
+	max-width: 40%;
+	margin: 0px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	border-radius: 7px;
+	padding: 30px;
+	margin-top: 200px;
+	background: rgba(0,0,0,.1);
+	text-align: center;
+	color: #fff;
+}
+.login-blk
+{
+	background: url('img/backgound-mobile.jpg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.btn-silaris
+{
+	background-color: #ffd375;
+	color: #c3880b;
+	border: none;
+	padding: 5px 40px;
+	margin-top: 20px;
+	border-radius: 4px;
+	font-weight: 600;
+}
+.btn-silaris:hover
+{
+	background: #c3880b;
+	color: #fff;
+}
+
+.form-group input[type=email], .form-group input[type=password]
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	
+
+}
+input:focus, textarea:focus, select:focus{
+        outline: none!important;
+        box-shadow: none!important;
+    }
+input[type=email]::placeholder, input[type=password]::placeholder
+{
+  color: #ffd375!important;
+  opacity: 1; /* Firefox */
+}
+.footer-blk p
+{
+	background-color: black;
+	line-height: 40px;
+	margin-top: -16px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: white;
+}
+.tlname
+{
+	text-transform: uppercase;
+	margin-top: 7px;
+	color: #dc3545;
+}
